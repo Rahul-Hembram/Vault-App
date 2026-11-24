@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SecureVault — Multimedia Content Protection System
 
 SecureVault is a local-first software engineering lab project for private file management. It has a React/Vite dashboard and an Express/SQLite API. Uploads are stored outside the web root; users can explicitly encrypt files at rest with AES-256-GCM. Passwords are bcrypt-hashed, sessions use an HttpOnly JWT cookie, and sensitive file operations re-check the account password on the server.
@@ -108,3 +109,6 @@ Do not delete `backend/data/` or `backend/storage/` while retaining the other: t
 Run `npm test` for round-trip, tamper detection, and account-key isolation checks; run `npm run build` to validate the frontend production bundle. The SQLite schema is initialized in `backend/src/db.js`, API behavior is defined in `backend/src/server.js`, and UI components and workflows are in `frontend/src/App.jsx`. Tailwind is configured and available alongside the custom design system in `frontend/src/styles.css`.
 
 For production hardening, add HTTPS, CSRF defenses appropriate to your deployment, stricter upload content inspection and quotas, key rotation/recovery, backups, and external security review.
+=======
+# Vault-App
+>>>>>>> 35e532571c558312161d53faa7d011d671657f05
