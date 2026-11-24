@@ -1,0 +1,16 @@
+node_modules/
+frontend/dist/
+backend/.env
+backend/data/
+backend/storage/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
+node_modules/
